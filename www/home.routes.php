@@ -1,7 +1,7 @@
 <?php
 
 function home(){
-	echo "ETO HOME!";
+	echo "This is home!";
 }
 
 

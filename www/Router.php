@@ -40,11 +40,16 @@ class Router {
     foreach ($active_routes as $pattern => $callback) {
       // Если REQUEST_URI соответствует шаблону - вызываем функцию
       if (preg_match_all("/$pattern/", $uri, $matches)) {
-        if(count($matches)>1)
-        {
-        call_user_func_array($callback, $matches[1]);
-      }
-      else $callback();
+        
+          for($i=0; $i < count($matches); $i++){
+            $array[$i] = $matches[$i+1][0];
+          }
+
+          
+      call_user_func_array($callback, $array);
+      
+      
+      
         // выходим из цикла
         break;
       }

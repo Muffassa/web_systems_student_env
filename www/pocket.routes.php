@@ -1,11 +1,14 @@
 <?php
 
 function add(){
-	echo "Add new user";
+	$add = new_template();
+	return $add->fetch('add.tpl');
 }
 
-function user($id, $id2) {
-	echo "user $id + $id";
+function user($id) {
+	$userid = new_template();
+	//$userid->assign('id', $id);
+	return $userid->fetch('userid.tpl');
 }
 
 

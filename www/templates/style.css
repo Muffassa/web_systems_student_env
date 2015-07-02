@@ -1,0 +1,26 @@
+
+#page {
+	width: 960px;
+	height: 1000px;
+	margin: 0 auto;
+}
+
+.content {
+	width: 660px;
+	height: 95%;
+	float: right;
+	background: lightblue;
+	margin: 0 auto;
+}
+
+.navigation {
+	width: 300px;
+	height: 95%;
+	float: left;
+	background: green;
+}
+
+.footer {
+	height: 5%;
+}
+

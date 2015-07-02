@@ -46,8 +46,9 @@ class Router {
           }
 
           
-      call_user_func_array($callback, $array);
       
+      
+      return call_user_func_array($callback, $array);
       
       
         // выходим из цикла

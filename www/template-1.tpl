@@ -5,11 +5,9 @@
 		<meta charset= "utf-8">
 	</head>
 	<body>
-		<div id = "head">
-			<p class="paragraph">Параграф 1</p>
-		</div>	
-		<div id = "navigation">{$text}</div>
-		<div id = "content">Content</div>
+		<div id = "head">Head</div>	
+		<div id = "navigation">Navigation</div>
+		<div id = "content">{$content}</div>
 		<div id = "footer">Footer</div>
 
 	</body>

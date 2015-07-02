@@ -2,6 +2,7 @@
 
 	include_once 'home.routes.php';
 	include_once 'pocket.routes.php';
+  include_once 'register.php';
 
 class Router {
 

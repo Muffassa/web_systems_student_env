@@ -5,7 +5,7 @@ function add(){
 }
 
 function user($id, $id2) {
-	echo "user $id + $id2";
+	echo "user $id + $id";
 }
 
 

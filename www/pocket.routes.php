@@ -7,12 +7,12 @@ function add(){
 
 function user($id) {
 	$userid = new_template();
-	//$userid->assign('id', $id);
+	$userid->assign('id', $id);
 	return $userid->fetch('userid.tpl');
 }
 
 
 
 Router::get('^\/user\/add$', 'add');
-Router::get('^\/user\/(\d+)\/(\d+)', 'user');
+Router::get('^\/user\/(\d+)', 'user');
 ?>

@@ -1,1 +1,1 @@
-User $id
+User {$id}

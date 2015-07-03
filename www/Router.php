@@ -1,8 +1,9 @@
 <?php
 
-	include_once 'home.php';
-	include_once 'user.php';
+	include_once 'home.routes.php';
+	include_once 'pocket.routes.php';
   include_once 'register.php';
+  include_once 'login.php';
 
 class Router {
 

@@ -1,6 +1,8 @@
 <?php
 include_once 'Router.php';
 
+
+
 function new_template(){
     $smarty = new Smarty(); 
 	$smarty->template_dir = 'templates';
@@ -10,10 +12,17 @@ function new_template(){
 	return $smarty;
 }
 
+
+function navigation(){
+
+} 
+
+
 $content = Router::process($_SERVER['REQUEST_METHOD'], $_SERVER['REQUEST_URI']);
-	
 	$smarty = new_template();
 	$smarty->assign('content', $content);
 	$smarty->display('template-1.tpl');
+
+
 
 ?>

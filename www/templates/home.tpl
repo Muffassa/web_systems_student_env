@@ -1,1 +1,1 @@
-Home
+Hello {$email}

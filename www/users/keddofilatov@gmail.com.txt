@@ -1,0 +1,1 @@
+a:3:{s:5:"email";s:22:"keddofilatov@gmail.com";s:8:"password";s:3:"123";s:24:"confirnation_of_password";s:3:"123";}

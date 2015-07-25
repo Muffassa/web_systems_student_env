@@ -27,3 +27,7 @@ ul.nav.navbar-nav.navbar-right{
 div.navbar-header{
 	margin-left: 460px;
 }
+
+p.error{
+	color:#FB1010 ;
+}

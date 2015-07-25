@@ -1,6 +1,6 @@
 <?php
-include_once 'home.routes.php';
-include_once 'pocket.routes.php';
+
+include_once 'Router.php';
 
 function reg(){
 	$reg = new_template();

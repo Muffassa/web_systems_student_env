@@ -1,3 +1,33 @@
+<?php /* Smarty version 3.1.24, created on 2015-07-25 13:36:26
+         compiled from "templates/main.tpl" */ ?>
+<?php
+/*%%SmartyHeaderCode:199984196855b390daeac9b5_93095990%%*/
+if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+$_valid = $_smarty_tpl->decodeProperties(array (
+  'file_dependency' => 
+  array (
+    'ee2a9d5876622d3a69623a5f651b59f3babcc064' => 
+    array (
+      0 => 'templates/main.tpl',
+      1 => 1437831385,
+      2 => 'file',
+    ),
+  ),
+  'nocache_hash' => '199984196855b390daeac9b5_93095990',
+  'variables' => 
+  array (
+    'content' => 0,
+  ),
+  'has_nocache_code' => false,
+  'version' => '3.1.24',
+  'unifunc' => 'content_55b390db017121_40551083',
+),false);
+/*/%%SmartyHeaderCode%%*/
+if ($_valid && !is_callable('content_55b390db017121_40551083')) {
+function content_55b390db017121_40551083 ($_smarty_tpl) {
+
+$_smarty_tpl->properties['nocache_hash'] = '199984196855b390daeac9b5_93095990';
+?>
 <!DOCTYPE html>
 <html lang="ru">
     <head>
@@ -12,8 +42,12 @@
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
         <!--[if lt IE 9]>
-            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+            <?php echo '<script'; ?>
+ src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"><?php echo '</script'; ?>
+>
+            <?php echo '<script'; ?>
+ src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"><?php echo '</script'; ?>
+>
         <![endif]-->
     </head>
     <body>
@@ -43,13 +77,20 @@
                 </div><!-- /.navbar-collapse -->
             </nav>
 
-            <nav class="content">{$content}</nav>
+            <nav class="content"><?php echo $_smarty_tpl->tpl_vars['content']->value;?>
+</nav>
             
                 
             <!-- jQuery -->
-            <script src="//code.jquery.com/jquery.js"></script>
+            <?php echo '<script'; ?>
+ src="//code.jquery.com/jquery.js"><?php echo '</script'; ?>
+>
             <!-- Bootstrap JavaScript -->
-            <script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.js"></script>
+            <?php echo '<script'; ?>
+ src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.js"><?php echo '</script'; ?>
+>
         </div>
     </body>
-</html>
+</html><?php }
+}
+?>

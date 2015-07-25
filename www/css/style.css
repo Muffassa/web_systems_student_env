@@ -1,0 +1,29 @@
+body {
+	height: 1000px;
+	
+}
+
+nav.content{
+	width: 980px;
+	height: 1000px;
+	margin: 0 auto;
+	background-color: #F8F8F8;
+	
+}
+
+.wrapper {
+	background-color: #222222;
+}
+
+form.form-horizontal{
+	padding-right: 100px;
+	padding-top: 100px;
+}
+
+ul.nav.navbar-nav.navbar-right{
+	margin-right: 460px;	
+}
+
+div.navbar-header{
+	margin-left: 460px;
+}

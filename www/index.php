@@ -21,7 +21,7 @@ function navigation(){
 $content = Router::process($_SERVER['REQUEST_METHOD'], $_SERVER['REQUEST_URI']);
 	$smarty = new_template();
 	$smarty->assign('content', $content);
-	$smarty->display('template-1.tpl');
+	$smarty->display('main.tpl');
 
 
 

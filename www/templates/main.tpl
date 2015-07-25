@@ -1,38 +1,7 @@
-<?php /* Smarty version 3.1.24, created on 2015-07-25 10:02:12
-         compiled from "templates/template-1.tpl" */ ?>
-<?php
-/*%%SmartyHeaderCode:207548216155b35ea46bda03_14830024%%*/
-if(!defined('SMARTY_DIR')) exit('no direct access allowed');
-$_valid = $_smarty_tpl->decodeProperties(array (
-  'file_dependency' => 
-  array (
-    '88dbd3bdefbfdbfb4eaa86ade836e495d1336827' => 
-    array (
-      0 => 'templates/template-1.tpl',
-      1 => 1437818529,
-      2 => 'file',
-    ),
-  ),
-  'nocache_hash' => '207548216155b35ea46bda03_14830024',
-  'variables' => 
-  array (
-    'title' => 0,
-  ),
-  'has_nocache_code' => false,
-  'version' => '3.1.24',
-  'unifunc' => 'content_55b35ea4770e26_99431256',
-),false);
-/*/%%SmartyHeaderCode%%*/
-if ($_valid && !is_callable('content_55b35ea4770e26_99431256')) {
-function content_55b35ea4770e26_99431256 ($_smarty_tpl) {
-
-$_smarty_tpl->properties['nocache_hash'] = '207548216155b35ea46bda03_14830024';
-?>
 <!DOCTYPE html>
 <html>
 <head>
-	<title><?php echo $_smarty_tpl->tpl_vars['title']->value;?>
-</title>
+	<title>{$title}</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <meta charset= "utf-8">
 </head>
@@ -79,6 +48,4 @@ $_smarty_tpl->properties['nocache_hash'] = '207548216155b35ea46bda03_14830024';
     </nav>
         
 </body>
-</html><?php }
-}
-?>
+</html>

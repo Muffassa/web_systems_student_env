@@ -5,6 +5,7 @@ require_once 'Router.php';
 
 function home(){
 	$home = new_template();
+	$home->assign('email', $_SESSION['email']);
 	return $home->fetch('home.tpl');
 
 }

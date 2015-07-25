@@ -6,9 +6,9 @@ function add(){
 }
 
 function user($id) {
-	$userid = new_template();
-	$userid->assign('id', $id);
-	return $userid->fetch('userid.tpl');
+	$user = new_template();
+	$user->assign('id', $id);
+	return $user->fetch('userid.tpl');
 }
 
 

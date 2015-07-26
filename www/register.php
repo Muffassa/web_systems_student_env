@@ -1,8 +1,9 @@
 <?php
 
 include_once 'Router.php';
+include_once 'add_db_user.php';
 
-function reg($error){
+function reg($error = ''){
 	$reg = new_template();
 	$reg->assign('error', $error);
 	return $reg->fetch('reg.tpl');
@@ -10,17 +11,14 @@ function reg($error){
 
 function register_submit(){
 	if($_POST['password'] == $_POST['confirnation_of_password']){
-		$information = serialize($_POST);
-		file_put_contents("users/".$_POST['email'].".txt", $information ,FILE_APPEND | LOCK_EX );
-		$error = '';
-		return login($error);
+		add_db_user($_POST['login'], $_POST['email'], $_POST['password']);
+		return login();
 
 
 	}
 	else{
 		$reg = new_template();
-		$error = "Пароли не совпадают";
-		return reg($error);
+		return reg("Пароли не совпадают");
 	}
 }
 

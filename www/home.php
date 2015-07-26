@@ -7,7 +7,7 @@ function home(){
 	$home = new_template();
 	if($_SESSION['user_is_entered'])
 		{
-			$home->assign('email', $_SESSION['email']);
+			$home->assign('login', $_SESSION['login']);
 		}
 	return $home->fetch('home.tpl');
 

@@ -4,9 +4,10 @@ include_once 'index.php';
 
  function sign_out()
  	{	
+ 		session_start();
+ 		unset($_SESSION);
  		session_destroy();
- 		$tpl = new_template();
- 		return $tpl->fetch('home.tpl');
+ 		return home();
  	}	
 
  	Router::get('^\/sign_out', 'sign_out');

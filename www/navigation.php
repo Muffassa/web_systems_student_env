@@ -8,13 +8,13 @@ function nav(){
 		if(!$_SESSION['user_is_entered'])
 		{
 			$nav = array(
-			array('link'=>'Sign Up', 'href'=>'/login'),
-			array('link'=>'Sign In', 'href'=>'/reg'),
+			array('link'=>'Sign In', 'href'=>'/login'),
+			array('link'=>'Sign Up', 'href'=>'/reg'),
 			);
 		}
 		else
 		{	$nav = array(
-			array('link'=>'Sign Out', 'href'=>'/log_out'),
+			array('link'=>'Sign Out', 'href'=>'/sign_out'),
 			);
 		}
 

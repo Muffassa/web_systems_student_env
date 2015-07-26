@@ -1,1 +1,1 @@
-a:3:{s:5:"email";s:12:"sadasd@gmail";s:8:"password";s:3:"123";s:24:"confirnation_of_password";s:3:"123";}
+a:3:{s:5:"email";s:12:"sadasd@gmail";s:8:"password";s:3:"123";s:24:"confirnation_of_password";s:3:"123";}a:3:{s:5:"email";s:12:"sadasd@gmail";s:8:"password";s:3:"123";s:24:"confirnation_of_password";s:3:"123";}

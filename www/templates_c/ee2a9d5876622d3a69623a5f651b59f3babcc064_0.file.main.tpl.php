@@ -1,7 +1,7 @@
-<?php /* Smarty version 3.1.24, created on 2015-07-26 06:29:20
+<?php /* Smarty version 3.1.24, created on 2015-07-26 10:18:05
          compiled from "templates/main.tpl" */ ?>
 <?php
-/*%%SmartyHeaderCode:180115224755b47e406b3229_92388267%%*/
+/*%%SmartyHeaderCode:73650104955b4b3dd98a993_68002016%%*/
 if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
@@ -9,11 +9,11 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'ee2a9d5876622d3a69623a5f651b59f3babcc064' => 
     array (
       0 => 'templates/main.tpl',
-      1 => 1437892156,
+      1 => 1437905265,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '180115224755b47e406b3229_92388267',
+  'nocache_hash' => '73650104955b4b3dd98a993_68002016',
   'variables' => 
   array (
     'nav' => 0,
@@ -21,13 +21,13 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => '3.1.24',
-  'unifunc' => 'content_55b47e407b5856_55161105',
+  'unifunc' => 'content_55b4b3dda88a16_08590312',
 ),false);
 /*/%%SmartyHeaderCode%%*/
-if ($_valid && !is_callable('content_55b47e407b5856_55161105')) {
-function content_55b47e407b5856_55161105 ($_smarty_tpl) {
+if ($_valid && !is_callable('content_55b4b3dda88a16_08590312')) {
+function content_55b4b3dda88a16_08590312 ($_smarty_tpl) {
 
-$_smarty_tpl->properties['nocache_hash'] = '180115224755b47e406b3229_92388267';
+$_smarty_tpl->properties['nocache_hash'] = '73650104955b4b3dd98a993_68002016';
 ?>
 <!DOCTYPE html>
 <html lang="ru">
@@ -35,7 +35,7 @@ $_smarty_tpl->properties['nocache_hash'] = '180115224755b47e406b3229_92388267';
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Title Page</title>
+        <title>Webdb</title>
         <link rel="stylesheet" href="css/style.css">
         <!-- Bootstrap CSS -->
         <link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.css" rel="stylesheet">

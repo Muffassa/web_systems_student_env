@@ -26,7 +26,8 @@
 				}
 			}
 		else{
-					return login();
+					$error = 'Такого пользователя нет';
+					return login($error);
 			}  
 		}
 

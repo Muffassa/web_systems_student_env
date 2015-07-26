@@ -12,7 +12,8 @@ function register_submit(){
 	if($_POST['password'] == $_POST['confirnation_of_password']){
 		$information = serialize($_POST);
 		file_put_contents("users/".$_POST['email'].".txt", $information ,FILE_APPEND | LOCK_EX );
-		return home();
+		$error = '';
+		return login($error);
 
 
 	}

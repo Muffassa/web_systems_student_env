@@ -1,7 +1,7 @@
-<?php /* Smarty version 3.1.24, created on 2015-07-25 13:36:26
+<?php /* Smarty version 3.1.24, created on 2015-07-26 06:29:20
          compiled from "templates/main.tpl" */ ?>
 <?php
-/*%%SmartyHeaderCode:199984196855b390daeac9b5_93095990%%*/
+/*%%SmartyHeaderCode:180115224755b47e406b3229_92388267%%*/
 if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
@@ -9,24 +9,25 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'ee2a9d5876622d3a69623a5f651b59f3babcc064' => 
     array (
       0 => 'templates/main.tpl',
-      1 => 1437831385,
+      1 => 1437892156,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '199984196855b390daeac9b5_93095990',
+  'nocache_hash' => '180115224755b47e406b3229_92388267',
   'variables' => 
   array (
+    'nav' => 0,
     'content' => 0,
   ),
   'has_nocache_code' => false,
   'version' => '3.1.24',
-  'unifunc' => 'content_55b390db017121_40551083',
+  'unifunc' => 'content_55b47e407b5856_55161105',
 ),false);
 /*/%%SmartyHeaderCode%%*/
-if ($_valid && !is_callable('content_55b390db017121_40551083')) {
-function content_55b390db017121_40551083 ($_smarty_tpl) {
+if ($_valid && !is_callable('content_55b47e407b5856_55161105')) {
+function content_55b47e407b5856_55161105 ($_smarty_tpl) {
 
-$_smarty_tpl->properties['nocache_hash'] = '199984196855b390daeac9b5_93095990';
+$_smarty_tpl->properties['nocache_hash'] = '180115224755b47e406b3229_92388267';
 ?>
 <!DOCTYPE html>
 <html lang="ru">
@@ -71,8 +72,8 @@ $_smarty_tpl->properties['nocache_hash'] = '199984196855b390daeac9b5_93095990';
                         <li><a href="#">Link</a></li>
                     </ul>
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a href="/login">Sign in</a></li>
-                        <li><a href="/reg">Sign up</a></li>
+                        <?php echo $_smarty_tpl->tpl_vars['nav']->value;?>
+
                     </ul>
                 </div><!-- /.navbar-collapse -->
             </nav>

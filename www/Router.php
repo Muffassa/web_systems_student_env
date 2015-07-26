@@ -4,6 +4,7 @@
 	include_once 'user.php';
   include_once 'register.php';
   include_once 'login.php';
+  include_once 'sign out.php';
 
 class Router {
 

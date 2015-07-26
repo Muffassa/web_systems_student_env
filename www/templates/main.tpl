@@ -37,8 +37,7 @@
                         <li><a href="#">Link</a></li>
                     </ul>
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a href="/login">Sign in</a></li>
-                        <li><a href="/reg">Sign up</a></li>
+                        {$nav}
                     </ul>
                 </div><!-- /.navbar-collapse -->
             </nav>

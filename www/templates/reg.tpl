@@ -20,7 +20,7 @@
   <div class="form-group">
     <label for="inputPassword3" class="col-sm-2 control-label">Confirm password</label>
     <div class="col-sm-10">
-      <input name = 'confirnation_of_password' type="text" class="form-control" placeholder="Confirm password">
+      <input name = 'confirmation_of_password' type="text" class="form-control" placeholder="Confirm password">
     </div>
   </div>
   <div class="form-group">

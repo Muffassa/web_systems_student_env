@@ -9,9 +9,6 @@ class Router {
 
   private static $routes = array();
 
-  private  function __constructor() {}
-
-
 
   public static function get($pattern, $callback) {
     self::set('GET', $pattern, $callback);

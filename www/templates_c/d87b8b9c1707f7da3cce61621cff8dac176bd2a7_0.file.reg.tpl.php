@@ -1,7 +1,7 @@
-<?php /* Smarty version 3.1.24, created on 2015-07-26 15:37:22
+<?php /* Smarty version 3.1.24, created on 2015-07-29 05:55:41
          compiled from "templates/reg.tpl" */ ?>
 <?php
-/*%%SmartyHeaderCode:161044160855b4feb24d29c8_88594841%%*/
+/*%%SmartyHeaderCode:118066621955b86adde6de76_05564233%%*/
 if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
@@ -9,24 +9,24 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'd87b8b9c1707f7da3cce61621cff8dac176bd2a7' => 
     array (
       0 => 'templates/reg.tpl',
-      1 => 1437925030,
+      1 => 1438147942,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '161044160855b4feb24d29c8_88594841',
+  'nocache_hash' => '118066621955b86adde6de76_05564233',
   'variables' => 
   array (
     'error' => 0,
   ),
   'has_nocache_code' => false,
   'version' => '3.1.24',
-  'unifunc' => 'content_55b4feb25c7776_05467472',
+  'unifunc' => 'content_55b86addeeed29_73655334',
 ),false);
 /*/%%SmartyHeaderCode%%*/
-if ($_valid && !is_callable('content_55b4feb25c7776_05467472')) {
-function content_55b4feb25c7776_05467472 ($_smarty_tpl) {
+if ($_valid && !is_callable('content_55b86addeeed29_73655334')) {
+function content_55b86addeeed29_73655334 ($_smarty_tpl) {
 
-$_smarty_tpl->properties['nocache_hash'] = '161044160855b4feb24d29c8_88594841';
+$_smarty_tpl->properties['nocache_hash'] = '118066621955b86adde6de76_05564233';
 ?>
 <form class="form-horizontal" action ='/reg' method ='post'>
   <div class="form-group">
@@ -50,7 +50,7 @@ $_smarty_tpl->properties['nocache_hash'] = '161044160855b4feb24d29c8_88594841';
   <div class="form-group">
     <label for="inputPassword3" class="col-sm-2 control-label">Confirm password</label>
     <div class="col-sm-10">
-      <input name = 'confirnation_of_password' type="text" class="form-control" placeholder="Confirm password">
+      <input name = 'confirmation_of_password' type="text" class="form-control" placeholder="Confirm password">
     </div>
   </div>
   <div class="form-group">

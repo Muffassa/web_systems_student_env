@@ -1,7 +1,7 @@
 <?php
 
 include_once 'Router.php';
-include_once 'add_db_user.php';
+include_once 'DataBase.php';
 
 function reg($error = ''){
 	$reg = new_template();
@@ -10,8 +10,9 @@ function reg($error = ''){
 }
 
 function register_submit(){
-	if($_POST['password'] == $_POST['confirnation_of_password']){
-		add_db_user($_POST['login'], $_POST['email'], $_POST['password']);
+	if($_POST['password'] == $_POST['confirmation_of_password']){
+		$user = new DataBase('Users');
+		$user->add($_POST['login'], $_POST['email'], $_POST['password']);
 		return login();
 
 
